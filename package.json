@@ -1,0 +1,70 @@
+{
+  "name": "dark-fantasy-theme",
+  "publisher": "ViselBrx",
+  "displayName": "Dark Fantasy Extension",
+  "description": "Dark fantasy color themes and pixel art product icons for VS Code: Vespergrim, Myrkwood and Noxthar.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "icon": "assets/dark-fantasy.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ViselBrx/DarkFantasy-Extension.git"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark fantasy",
+    "pixel art",
+    "color theme",
+    "product icons",
+    "alchemy"
+  ],
+  "files": [
+    "LICENSE",
+    "assets/dark-fantasy.png",
+    "assets/readme-icons/*.png",
+    "assets/screenshots/*.png",
+    "themes/vespergrim-color-theme.json",
+    "themes/myrkwood-color-theme.json",
+    "themes/noxthar-color-theme.json",
+    "product-icons/vespergrim-product-icon-theme.json",
+    "product-icons/vespergrim-relics.woff",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "npm run build:themes && npm run build:icons",
+    "build:themes": "node scripts/build-themes.mjs",
+    "build:icons": "node scripts/build-icons.mjs",
+    "vscode:prepublish": "npm run build"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vespergrim",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vespergrim-color-theme.json"
+      },
+      {
+        "label": "Myrkwood",
+        "uiTheme": "vs-dark",
+        "path": "./themes/myrkwood-color-theme.json"
+      },
+      {
+        "label": "Noxthar",
+        "uiTheme": "vs-dark",
+        "path": "./themes/noxthar-color-theme.json"
+      }
+    ],
+    "productIconThemes": [
+      {
+        "id": "vespergrim-relics",
+        "label": "Vespergrim Relics",
+        "path": "./product-icons/vespergrim-product-icon-theme.json"
+      }
+    ]
+  }
+}

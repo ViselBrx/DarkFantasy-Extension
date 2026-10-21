@@ -1,0 +1,110 @@
+{
+  "fonts": [
+    {
+      "id": "vespergrim-relics",
+      "src": [
+        {
+          "path": "./vespergrim-relics.woff",
+          "format": "woff"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal"
+    }
+  ],
+  "iconDefinitions": {
+    "explorer-view-icon": {
+      "fontCharacter": "\\E001"
+    },
+    "files": {
+      "fontCharacter": "\\E001"
+    },
+    "open-editors-view-icon": {
+      "fontCharacter": "\\E001"
+    },
+    "book": {
+      "fontCharacter": "\\E001"
+    },
+    "search-view-icon": {
+      "fontCharacter": "\\E002"
+    },
+    "search": {
+      "fontCharacter": "\\E002"
+    },
+    "source-control-view-icon": {
+      "fontCharacter": "\\E003"
+    },
+    "source-control": {
+      "fontCharacter": "\\E003"
+    },
+    "run-view-icon": {
+      "fontCharacter": "\\E004"
+    },
+    "debug-alt": {
+      "fontCharacter": "\\E004"
+    },
+    "extensions-view-icon": {
+      "fontCharacter": "\\E005"
+    },
+    "extensions": {
+      "fontCharacter": "\\E005"
+    },
+    "terminal-view-icon": {
+      "fontCharacter": "\\E006"
+    },
+    "terminal": {
+      "fontCharacter": "\\E006"
+    },
+    "settings-view-bar-icon": {
+      "fontCharacter": "\\E007"
+    },
+    "settings-gear": {
+      "fontCharacter": "\\E007"
+    },
+    "gear": {
+      "fontCharacter": "\\E007"
+    },
+    "test-view-icon": {
+      "fontCharacter": "\\E008"
+    },
+    "beaker": {
+      "fontCharacter": "\\E008"
+    },
+    "accounts-view-bar-icon": {
+      "fontCharacter": "\\E009"
+    },
+    "account": {
+      "fontCharacter": "\\E009"
+    },
+    "bell": {
+      "fontCharacter": "\\E00A"
+    },
+    "outline-view-icon": {
+      "fontCharacter": "\\E00B"
+    },
+    "symbol-class": {
+      "fontCharacter": "\\E00B"
+    },
+    "output-view-icon": {
+      "fontCharacter": "\\E00C"
+    },
+    "output": {
+      "fontCharacter": "\\E00C"
+    },
+    "remote-explorer-view-icon": {
+      "fontCharacter": "\\E00D"
+    },
+    "remote-explorer": {
+      "fontCharacter": "\\E00D"
+    },
+    "debug-console-view-icon": {
+      "fontCharacter": "\\E00E"
+    },
+    "debug-console": {
+      "fontCharacter": "\\E00E"
+    },
+    "debug": {
+      "fontCharacter": "\\E00E"
+    }
+  }
+}
