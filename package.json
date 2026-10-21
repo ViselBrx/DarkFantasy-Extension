@@ -1,9 +1,9 @@
 {
   "name": "dark-fantasy-theme",
-  "publisher": "ViselBrx",
+  "publisher": "dark-fantasy-theme",
   "displayName": "Dark Fantasy Extension",
   "description": "Dark fantasy color themes and pixel art product icons for VS Code: Vespergrim, Myrkwood and Noxthar.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "icon": "assets/dark-fantasy.png",
   "repository": {

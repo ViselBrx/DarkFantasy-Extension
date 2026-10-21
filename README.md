@@ -12,7 +12,7 @@ Dark Fantasy Extension brings three dark color themes and a pixel art product ic
 
 Each theme styles the workbench, editor, syntax, terminal, selections, diagnostics, and Git decorations.
 
-## Screenshots (TypeScript example)
+## Screenshots (TypeScript exemple)
 
 ### Vespergrim
 
